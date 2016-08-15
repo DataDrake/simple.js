@@ -49,7 +49,7 @@ form elements into JSON.
 
 **Supported Form Elements:**
 - [x] `button`
-- [ ] `datalist`
+- [x] `datalist`
 - [x] `input`
   - [x] checkbox
   - [x] color

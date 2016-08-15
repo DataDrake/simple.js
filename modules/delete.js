@@ -2,7 +2,6 @@
  MIT License
  Copyright (c) 2016 Bryan T. Meyers
  */
-
 u("a[simple-delete]").each( function(d){
         u(d).on( "click", function(evt) {
             // prevent the page from navigating after submit
