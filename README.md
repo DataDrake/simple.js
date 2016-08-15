@@ -72,6 +72,7 @@ form elements into JSON.
 - [x] `select`
   - [x] multiple
 - [x] `textarea`
+
 ### top.js
 
 This module allows a developer to turn an `anchor` into a "Return to Top" button.
