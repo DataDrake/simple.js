@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script src="vendor/require.js"></script>
+        <script src="vendor/umbrella.min.js"></script>
+    </head>
+    <body>
+        <form id="notsimple">
+            <input type="text" name="hello" title="Hello">
+            <input type="text" name="world" title="World">
+            <input type="submit" name="hello" title="Send Hello">
+        </form>
+        <form id="simple" method="get" action="/" simple-form>
+            <select name="selector">
+                <option value="4">Hello</option>
+                <option value="5">World</option>
+            </select>
+            <select name="radio" multiple>
+                <option value="2">Hello</option>
+                <option value="3">World</option>
+            </select>
+            <input type="text" name="hello" title="Hello">
+            <input type="text" name="world" title="World">
+            <input type="submit" title="Send Hello">
+        </form>
+        <div id="simple-success">Text</div>
+        <form id="file-upload" method="post" simple-form>
+            <input type="file" name="upload" title="Upload">
+            <input type="submit" title="Send File">
+        </form>
+        <div>
+            Gonna go bye-bye
+            <a href="./test.html" simple-delete="div">Delete Me!</a>
+        </div>
+        <div>
+            Gonna go bye-bye
+            <a href="./test.html" simple-delete="div">Delete Me!</a>
+        </div>
+        <a class="return-to-top" href="#">Top</a>
+        <script type="application/javascript" src="simple.js"></script>
+    </body>
+</html>
