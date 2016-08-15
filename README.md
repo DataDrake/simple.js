@@ -17,6 +17,8 @@ HTML and HTML5 elements for improved programmability of the user interface.
 * [forms.js](#formsjs)
 * [top.js](#topjs)
 
+---
+
 ### delete.js
 
 This module allows a developer to turn an `anchor` into a clickable delete button.
@@ -28,6 +30,8 @@ This module allows a developer to turn an `anchor` into a clickable delete butto
 **delete.js** can be used by adding the `simple-delete` tag to the `anchor`
 element. It accepts a single CSS selector to determine which item to remove
 upon the successful completion of a `DELETE` XHR Request to the URI indicated by `href`.
+
+---
 
 ### forms.js
 
@@ -72,6 +76,8 @@ form elements into JSON.
 - [x] `select`
   - [x] multiple
 - [x] `textarea`
+
+---
 
 ### top.js
 
