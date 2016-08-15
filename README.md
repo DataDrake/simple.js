@@ -71,7 +71,7 @@ form elements into JSON.
   - [x] tel
   - [x] text
   - [x] url
-- [ ] `keygen`
+- [ ] `keygen` *Deprecated*
 - [ ] `output`
 - [x] `select`
   - [x] multiple
