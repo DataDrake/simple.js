@@ -64,7 +64,7 @@ form elements into JSON.
   - [x] file
   - [x] number
   - [x] password (Need to find a way to store this better)
-  - [] radio
+  - [x] radio
   - [x] range
   - [x] search
   - [x] submit (Only for the event)
