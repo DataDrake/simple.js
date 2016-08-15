@@ -13,9 +13,9 @@ HTML and HTML5 elements for improved programmability of the user interface.
 ## Modules
 
 **Available:**
-* [delete.js](#delete.js)
-* [forms.js](#forms.js)
-* [delete.js](#delete.js)
+* [delete.js](#deletejs)
+* [forms.js](#formsjs)
+* [delete.js](#deletejs)
 
 ### delete.js
 
