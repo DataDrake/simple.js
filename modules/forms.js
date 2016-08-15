@@ -73,6 +73,12 @@ u("form[simple-form] input").each( function(input){
         case "submit":
         case "reset":
             break;
+        case "checkbox":
+            input.form.simpleform[input.name] = input.checked;
+            u(input).on( "change" , function () {
+                input.form.simpleform[input.name] = input.checked;
+            });
+            break;
         case "file":
             input.form.simpleform[input.name] = {};
             u(input).on( "change" , function () {
