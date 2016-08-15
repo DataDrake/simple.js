@@ -48,7 +48,7 @@ Request to the `action` URI. It automatically handles the translation of the
 form elements into JSON.
 
 **Supported Form Elements:**
-- [ ] `button`
+- [x] `button`
 - [ ] `datalist`
 - [x] `input`
   - [x] checkbox
