@@ -10,7 +10,7 @@ u('form[simple-form]').each( function(form) {
             e.preventDefault();
             ajax(form.action ? form.action : window.location.pathname , {
                     body: JSON.stringify(form.simpleform),
-                    method: form.method
+                    method: u(form).attr('method')
                 }, function (err, data) {
                     if (!err) {
                         u("#" + form.id + "-success").html("<div data-alert class='alert-box success radius test-center '><i class='fa fa-fw fa-check'></i>Saved<a href='#' class='close'>&times;</a></div>");
@@ -91,7 +91,7 @@ u("form[simple-form] input").each( function(input){
             });
             break;
         default:
-            input.form.simpleform[input.name] = "";
+            input.form.simpleform[input.name] = input.value;
             u(input).on( "change" , function () {
                 input.form.simpleform[input.name] = input.value;
             });
