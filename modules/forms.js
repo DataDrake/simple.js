@@ -13,14 +13,14 @@ u('form[simple-form]').each( function(form) {
                     method: u(form).attr('method')
                 }, function (err, data) {
                     if (!err) {
-                        u("#" + form.id + "-success").html("<div data-alert class='alert-box success radius test-center '><i class='fa fa-fw fa-check'></i>Saved<a href='#' class='close'>&times;</a></div>");
+                        u("#" + u(form).attr('id') + "-success").html("<div data-alert class='alert-box success radius test-center '><i class='fa fa-fw fa-check'></i>Saved<a href='#' class='close'>&times;</a></div>");
                     } else {
-                        u("#" + form.id + "-success").html("<div data-alert class='alert-box alert radius text-center'>Error:" + err + "<a href='#' class='close'>&times;</a></div>")
+                        u("#" + u(form).attr('id') + "-success").html("<div data-alert class='alert-box alert radius text-center'>Error:" + err + "<a href='#' class='close'>&times;</a></div>")
                     }
                 },
                 function (xhr) {
                     var msg = undefined;
-                    switch (xhr.method) {
+                    switch (u(form).method.toLowerCase()) {
                         case 'get':
                             msg = "Fetching...";
                             break;
