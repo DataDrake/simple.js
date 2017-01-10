@@ -33,7 +33,7 @@ u('form[simple-form]').each( function(form) {
                         default:
                             msg = "Sending...";
                     }
-                    u("#" + form.id + "-success").html("<div data-alert class='alert-box radius secondary text-center'><i class='fa fa-cog fa-spin'></i>" + msg + "</div>");
+                    u("#" + u(form).attr('id') + "-success").html("<div data-alert class='alert-box radius secondary text-center'><i class='fa fa-cog fa-spin'></i>" + msg + "</div>");
                 });
         }
     );
