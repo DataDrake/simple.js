@@ -1,6 +1,6 @@
 /*
  MIT License
- Copyright (c) 2016 Bryan T. Meyers
+ Copyright 2017 Bryan T. Meyers
  */
 u('form[simple-form]').each( function(form) {
     form.simpleform = {};

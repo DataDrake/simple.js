@@ -1,6 +1,6 @@
 /*
  MIT License
- Copyright (c) 2016 Bryan T. Meyers
+ Copyright 2017 Bryan T. Meyers
  */
 window.onload = function () {
     u('a[simple-top]').first().style = "display: none;";

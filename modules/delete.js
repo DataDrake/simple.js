@@ -1,6 +1,6 @@
 /*
  MIT License
- Copyright (c) 2016 Bryan T. Meyers
+ Copyright 2017 Bryan T. Meyers
  */
 u("a[simple-delete]").each( function(d){
         u(d).on( "click", function(evt) {

@@ -93,7 +93,7 @@ This module allows a developer to turn an `anchor` into a "Return to Top" button
 
 MIT License
 
-Copyright (c) 2016 Bryan T. Meyers
+Copyright 2017 Bryan T. Meyers
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
